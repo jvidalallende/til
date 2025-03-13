@@ -67,13 +67,19 @@ helm install istio-ingressgateway istio/gateway -n istio-system --wait
 ## Install addons
 
 [Prometheus][06] is needed for telemetry. [Kiali][07] and [Grafana][08] make use of these metrics
-to visualize the information. Customize `ISTIO_VERSION` to your needs.
+to visualize the information. [Jaeger][10] is used for tracing.
 
-```
+
+```bash
+#!/usr/bin/env bash
+
+# Customize ISTIO_VERSION to your needs.
 ISTIO_VERSION="1.25"
+
 kubectl apply -f "https://raw.githubusercontent.com/istio/istio/release-${ISTIO_VERSION}/samples/addons/prometheus.yaml"
 kubectl apply -f "https://raw.githubusercontent.com/istio/istio/release-${ISTIO_VERSION}/samples/addons/kiali.yaml"
 kubectl apply -f "https://raw.githubusercontent.com/istio/istio/release-${ISTIO_VERSION}/samples/addons/grafana.yaml"
+kubectl apply -f "https://raw.githubusercontent.com/istio/istio/release-${ISTIO_VERSION}/samples/addons/jaeger.yaml"
 ```
 
 ## Enable proxy injection on the namespace where resources are to be deployed
@@ -119,3 +125,4 @@ webapp-6b8c8c65c6-lgc7h               2/2     Running   0             35m
 [07]: https://istio.io/latest/docs/ops/integrations/kiali/
 [08]: https://istio.io/latest/docs/ops/integrations/grafana/
 [09]: https://github.com/istio/istio/issues/44118#issuecomment-1486226384
+[10]: https://istio.io/latest/docs/ops/integrations/jaeger/
