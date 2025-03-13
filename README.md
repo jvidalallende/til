@@ -2,7 +2,7 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_3 TILs and counting..._
+_4 TILs and counting..._
 
 ## Golang
 
@@ -14,3 +14,7 @@ _3 TILs and counting..._
 ## Istio
 
 - [Install Istio on k3d on Fedora 41](./Istio/install_istio_on_k3d_fedora41.md) - 2025-03-13
+
+## K3d
+
+- [Get IP address of agent nodes](./K3d/get_ip_address_of_agent_nodes.md) - 2025-03-13
