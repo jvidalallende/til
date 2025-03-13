@@ -10,8 +10,8 @@ a bit better how to select items with it, so here it is as a reference.
 It retrieves the list of nodes, filters them by those that contain the value `agent` within the annotation
 `k3s.io/node-args`, and then it filters again the `addresses` field to only output the ones with `type="InternalIP".
 
-```console
-> kubectl get nodes -ojson | jq -r '.items[] | select(.metadata.annotations."k3s.io/node-args" | contains ("agent")) | .status.addresses[] | select(.type == "InternalIP") | .address'
+```
+kubectl get nodes -ojson | jq -r '.items[] | select(.metadata.annotations."k3s.io/node-args" | contains ("agent")) | .status.addresses[] | select(.type == "InternalIP") | .address'
 
 172.19.0.5
 172.19.0.6

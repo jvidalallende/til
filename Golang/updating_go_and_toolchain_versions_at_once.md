@@ -20,8 +20,8 @@ After reading the document about [toolchains][01] in go documentation, I found t
 use in these cases:
 
 ```console
-> GO_VERSION="1.22.12" # Change to whatever value we want to update
-> go get "go@${GO_VERSION}" toolchain@none
+GO_VERSION="1.22.12" # Change to whatever value we want to update
+go get "go@${GO_VERSION}" toolchain@none
 ```
 
 This command:
