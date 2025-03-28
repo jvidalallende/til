@@ -2,7 +2,7 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_6 TILs and counting..._
+_7 TILs and counting..._
 
 ## Golang
 
@@ -18,6 +18,10 @@ _6 TILs and counting..._
 ## K3d
 
 - [Get IP address of agent nodes](./K3d/get_ip_address_of_agent_nodes.md) - 2025-03-13
+
+## Misc
+
+- [Miracast over Infrastructure](./Misc/miracast_over_infrastructure.md) - 2025-03-28
 
 ## Python
 
