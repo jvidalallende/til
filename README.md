@@ -2,11 +2,12 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_8 TILs and counting..._
+_9 TILs and counting..._
 
 ## AWS
 
 - [Availability zone names are mapped per account](./AWS/availability_zone_names_are_mapped_per_account.md) - 2025-04-11
+- [Domain-based rules require connection establishment](./AWS/domain_based_rules_require_connection_establishment.md) 2025-04-11
 
 ## Golang
 
