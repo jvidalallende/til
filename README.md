@@ -2,7 +2,7 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_10 TILs and counting..._
+_11 TILs and counting..._
 
 ## AWS
 
@@ -27,6 +27,10 @@ _10 TILs and counting..._
 ## K3d
 
 - [Get IP address of agent nodes](./K3d/get_ip_address_of_agent_nodes.md) - 2025-03-13
+
+## Mac
+
+- [Disable press-and-hold for specific applications](./Mac/disable_press_and_hold_for_specific_applications.md) - 2025-08-20
 
 ## Misc
 
