@@ -2,7 +2,7 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_11 TILs and counting..._
+_12 TILs and counting..._
 
 ## AWS
 
@@ -31,6 +31,7 @@ _11 TILs and counting..._
 ## Mac
 
 - [Disable press-and-hold for specific applications](./Mac/disable_press_and_hold_for_specific_applications.md) - 2025-08-20
+- [Identify the bundle ID of an application](./Mac/identify_bundle_id_for_app.md) - 2025-09-08
 
 ## Misc
 
