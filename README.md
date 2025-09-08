@@ -36,6 +36,7 @@ _12 TILs and counting..._
 ## Misc
 
 - [Miracast over Infrastructure](./Misc/miracast_over_infrastructure.md) - 2025-03-28
+- [Corneas must "breath" on their own](./Misc/cornea_must_breathe_on_its_own.md) - 2025-09-08
 
 ## Python
 
