@@ -2,7 +2,7 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_12 TILs and counting..._
+_14 TILs and counting..._
 
 ## AWS
 
@@ -45,3 +45,4 @@ _12 TILs and counting..._
 ## Tools
 
 - [Export draw.io diagrams so they can be edited](./Tools/export_drawio_diagrams_to_allow_edition.md) - 2025-03-20
+- [Use VA-API to encode with `ffmpeg`](./Tools/use_vaapi_to_encode_with_ffmpeg.md) - 2025-09-08
