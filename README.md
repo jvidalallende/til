@@ -2,7 +2,7 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_15 TILs and counting..._
+_16 TILs and counting..._
 
 ## AWS
 
@@ -42,6 +42,10 @@ _15 TILs and counting..._
 ## Python
 
 - [Assignment expressions](./Python/assignment_expressions.md) - 2025-03-17
+
+## Scripting
+
+- [Providing good error reports in Bash](./Scripting/providing_good_error_reports_in_bash.md) - 2025-09-19
 
 ## Tools
 
