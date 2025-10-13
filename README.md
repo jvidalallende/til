@@ -2,13 +2,14 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_16 TILs and counting..._
+_17 TILs and counting..._
 
 ## AWS
 
 - [Availability zone names are mapped per account](./AWS/availability_zone_names_are_mapped_per_account.md) - 2025-04-11
 - [Domain-based rules require connection establishment](./AWS/domain_based_rules_require_connection_establishment.md) 2025-04-11
 - [Domain-based rules can inspect more than HTTPS](./AWS/domain_based_rules_can_inspect_more_than_https.md) 2025-09-08
+- [RDS subnet group requires 2 availability zones](./AWS/rds_subnet_group_requires_two_azs.md) 2025-10-13
 
 ## Git
 
