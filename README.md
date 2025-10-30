@@ -2,7 +2,7 @@
 
 My _Today I Learned_ notes, inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
 
-_19 TILs and counting..._
+_20 TILs and counting..._
 
 ## AWS
 
@@ -10,6 +10,10 @@ _19 TILs and counting..._
 - [Domain-based rules require connection establishment](./AWS/domain_based_rules_require_connection_establishment.md) 2025-04-11
 - [Domain-based rules can inspect more than HTTPS](./AWS/domain_based_rules_can_inspect_more_than_https.md) 2025-09-08
 - [RDS subnet group requires 2 availability zones](./AWS/rds_subnet_group_requires_two_azs.md) 2025-10-13
+
+## Curl
+
+- [Only print HTTP code to stdout](./Curl/Only_print_HTTP_code_to_stdout.md) - 2025-10-30
 
 ## Git
 
